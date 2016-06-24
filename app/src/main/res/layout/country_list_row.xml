@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:layoutDirection="locale"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/default_country_name"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/dial_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="@string/default_country_code"
+        android:textColor="#018ccf"
+        android:textSize="16sp" />
+</LinearLayout>
